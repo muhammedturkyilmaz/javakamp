@@ -2,6 +2,12 @@ package oopIntro;
 
 public class Product {
 	
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+	
+	
 	public Product() {//constructor (yapýcý blok)
 		System.out.println("Ben çalýþtým");
 	}
@@ -14,10 +20,6 @@ public class Product {
 		this.detail = detail;
 	}
 	
-	int id;
-	String name;
-	double unitPrice;
-	String detail;
 	
 	
 }
